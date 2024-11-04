@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# MapsApp 🗺️
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to MapsApp! This project was developed with [Expo](https://expo.dev) and utilizes [expo-location](https://docs.expo.dev/versions/latest/sdk/location/) to provide GPS services for location-based features.
 
-## Get started
+## About the Project
 
-1. Install dependencies
+MapsApp is designed to showcase GPS functionality by accessing the user’s location in real-time. It includes features that allow users to view their current location on a map, explore nearby locations, and navigate with ease. The app makes use of expo-location to handle permissions and access device GPS data.
+
+## Running the App
+
+To explore the app:
+
+1. Install dependencies:
 
    ```bash
    npm install
    ```
 
-2. Start the app
+2. Start the app:
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+   You’ll see options to open the app in:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   - An [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+   - An [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+   - [Expo Go](https://expo.dev/go) for viewing on a physical device
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+> **Note:** GPS services require appropriate permissions to work correctly. Make sure to grant location permissions when prompted.
 
-## Get a fresh project
+## Learn More
 
-When you're ready, run:
+To learn more about the tools used in this project:
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo documentation](https://docs.expo.dev/): For information on setup and usage.
+- [expo-location documentation](https://docs.expo.dev/versions/latest/sdk/location/): Details on GPS services and location permissions.
